@@ -1,0 +1,34 @@
+{
+  "Microsoft 365": {
+    "steps": [
+      "Check internet connection",
+      "Restart Outlook",
+      "Clear credential cache"
+    ],
+    "pdf": ""
+  },
+  "Citrix": {
+    "steps": [
+      "Ensure Citrix Workspace is installed",
+      "Clear Citrix cache",
+      "Reconnect to session"
+    ],
+    "pdf": ""
+  },
+  "VPN": {
+    "steps": [
+      "Open Cisco VPN",
+      "Use hospital login",
+      "Verify Duo push"
+    ],
+    "pdf": ""
+  },
+  "Account Access": {
+    "steps": [
+      "Unlock account",
+      "Reset password via self-service",
+      "Call Service Desk if locked out"
+    ],
+    "pdf": ""
+  }
+}

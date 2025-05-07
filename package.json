@@ -1,0 +1,35 @@
+{
+  "name": "self-service-portal",
+  "version": "1.0.0",
+  "description": "IT Self-Service Troubleshooting Portal",
+  "main": "main.js",
+  "author": "Hospital IT Team",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder"
+  },
+  "devDependencies": {
+    "electron": "^28.1.0",
+    "electron-builder": "^24.6.0"
+  },
+  "build": {
+    "appId": "com.hospital.selfservice",
+    "productName": "Self-Service Troubleshooting Portal",
+    "directories": {
+      "output": "release"
+    },
+    "files": [
+      "**/*"
+    ],
+    "win": {
+      "target": "nsis",
+      "icon": "assets/icon.ico"
+    },
+    "nsis": {
+      "oneClick": false,
+      "perMachine": true,
+      "allowToChangeInstallationDirectory": true
+    }
+  }
+}
