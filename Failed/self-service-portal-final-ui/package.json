@@ -1,0 +1,12 @@
+{
+  "name": "self-service-portal",
+  "version": "1.0.0",
+  "description": "Hospital IT Self-Service Troubleshooting Portal",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^27.0.0"
+  }
+}
