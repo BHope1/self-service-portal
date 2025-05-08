@@ -1,0 +1,11 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = true
+	symlinks = false
+	ignorecase = true
+[remote "origin"]
+	url = C:/Users/bendr/Desktop/IT Projects/self-service-portal/.
+	tagOpt = --no-tags
+	fetch = +refs/*:refs/*
+	mirror = true
